@@ -1,5 +1,5 @@
 $(function () {
-    //script for popups
+    
     $('a.show_popup').click(function () {
         $('div.'+$(this).attr("rel")).fadeIn(500);
         $("body").append("<div id='overlay'></div>");
@@ -11,8 +11,7 @@ $(function () {
         $('#overlay').remove('#overlay');
         return false;
     });
-
-    //script for tabs
+    
     $("div.selectTabs").each(function () {
         var tmp = $(this);
         $(tmp).find(".lineTabs li").each(function (i) {
