@@ -1,0 +1,133 @@
+body {
+    background-image: url("../img/trav.jpg");
+    background-size: 500px;
+    font-family: 'Russo One', sans-serif;
+}
+
+main {
+    background: white;
+}
+
+.logo a {
+    color: #a980cd;
+    font-size: 22px;
+}
+
+.logo {
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+.places {
+    padding: 70px;
+}
+
+.places p {
+    font-size: 25px;
+}
+
+.about p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.image-send {
+    background-image: url("../img/311.JPG");
+    background-size: cover;
+}
+
+.intro-cover {
+    width: 100%;
+    padding: 150px 0;
+    position: relative;
+}
+
+.intro-cover:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    background: rgba(84, 77, 89, 0.5);
+}
+.intro-cover a.btn {
+    position: relative;
+    border: 4px solid #fff;
+    padding: 30px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+.intro-cover a.btn:hover, .intro-cover a.btn:focus {
+    text-decoration: none !important;
+    background: transparent !important;
+    color: #fff !important;
+}
+@media screen and (max-width: 768px) {
+    .intro-cover a.btn {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+}
+
+.gallery {
+    text-align: center;
+    padding: 30px;
+}
+
+.gallery img {
+    margin: 10px;
+}
+
+.more {
+    background: #f5f5f5;
+    padding: 60px;
+}
+
+.more ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.more li {
+    padding: 15px;
+}
+
+.more h3 {
+    color: #a980cd;
+    font-size: 30px;
+}
+.form {
+    padding: 70px;
+}
+
+.contact-info {
+    list-style: none;
+}
+
+.field {
+    padding: 10px;
+}
+
+footer {
+    padding: 30px;
+    background-color: white;
+}
+
+.map {
+    padding: 20px;
+}
